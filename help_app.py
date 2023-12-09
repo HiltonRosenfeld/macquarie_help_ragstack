@@ -21,7 +21,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-ASTRA_DB_ID = os.environ["ASTRA_DB_ID"]
+ASTRA_DB_ID = os.environ["ASTRA_DB_ID2"]
 ASTRA_DB_APPLICATION_TOKEN = os.environ["ASTRA_DB_APPLICATION_TOKEN"]
 ASTRA_DB_KEYSPACE = os.environ["ASTRA_DB_KEYSPACE"]
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
